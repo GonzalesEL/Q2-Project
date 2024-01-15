@@ -1,0 +1,131 @@
+body {
+  background-image: url('https://www.state.gov/wp-content/uploads/2019/04/Philippines-2196x1406.jpg');
+  background-position: center;
+  color: black;
+  text-align: center;
+}
+header {
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
+    padding: 10px;
+    opacity: .95;
+}
+.desc {
+    text-align: center;
+    font-size: larger;
+    font-family: 'Barlow', sans-serif;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 25px;
+    margin: auto;
+    width: 1200px;
+    opacity: .8;
+}
+.best {
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Raleway', sans-serif;
+    padding: 5px;
+    margin: auto;
+    background-color: white;
+    opacity: .95;
+}
+h3 {
+    text-align: center;
+    font-size: larger;
+    font-family: 'Raleway', sans-serif;
+}
+.container {
+    width: 1650px;
+    margin: auto;  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Boracay Siargao-IMG Baguio"
+      "Boracay-IMG Siargao Baguio-IMG";
+    opacity: 0.8;
+  }
+  
+  .Boracay { 
+    grid-area: Boracay;
+    text-align: center;
+    font-size: large;
+    font-family: 'Barlow', sans-serif;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 25px;
+    text-align: center;
+    padding: 25px;
+    }
+  
+  .Boracay-IMG { 
+    grid-area: Boracay-IMG;
+    border: 3px solid black;
+    border-radius: 25px;
+    background-image: url(https://wallpaperaccess.com/full/1740357.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+  
+  .Siargao-IMG { 
+    grid-area: Siargao-IMG; 
+    border: 3px solid black;
+    border-radius: 25px;
+    background-image: url(https://wallpapers.com/images/hd/siargao-island-cloud-9-6bcbq7dfim0d09p1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+  
+  .Siargao { 
+    grid-area: Siargao;
+    text-align: center;
+    font-size: large;
+    font-family: 'Barlow', sans-serif;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 25px;
+    text-align: center;
+    padding: 25px;
+    }
+  
+  .Baguio { 
+    grid-area: Baguio;
+    text-align: center;
+    font-size: large;
+    font-family: 'Barlow', sans-serif;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 25px;
+    text-align: center;
+    padding: 25px;
+    }
+  
+  .Baguio-IMG { 
+    grid-area: Baguio-IMG; 
+    border: 3px solid black;
+    border-radius: 25px;
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/4a/0e/21/valley-of-colors.jpg?w=1200&h=-1&s=1);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+footer {
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+  font-family: 'Barlow', sans-serif;
+  opacity: .95;
+}
+
+h4 {
+  font-family: 'Raleway', sans-serif;
+}
+  
